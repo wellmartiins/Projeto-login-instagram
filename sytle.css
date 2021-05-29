@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instaCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instaCell img {
+    height: 50rem;
+}
+
+.instaContinuar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid;
+    border-color: dimgray;
+    margin: 0.25rem;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instaLogo {
+    height: 2.8rem;
+}
+
+.instaProfilePhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.instaProfilePhoto img {
+    height: 10rem;
+}
+
+.instaLogin {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 1rem;
+    
+}
+
+.instaLogout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.notAccount {
+    color: rgb(160, 160, 160);
+}
+
+.linkBlue {
+    color: #0095f6;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    padding: 1.3rem 0;
+    color: white;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.appDownload {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+
+}
+
+.appDownload:nth-child(1) {
+    background-image: url('./img/appStore2.png');
+    height:3rem;
+
+}
+
+.appDownload:nth-child(2) {
+    background-image: url('./img/googleWhite2.png');
+    height:5rem;
+}
