@@ -137,3 +137,31 @@ body {
     background-image: url('./img/googleWhite2.png');
     height:5rem;
 }
+
+@media (max-width: 1024px) {
+    .insta {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: black;
+    }
+
+    .insta {
+        width: 90%;
+    }
+
+    .instaCell {
+        display: none;
+    }
+
+    .instaContinuar {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
